@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:newapp/Home.dart';
+import 'package:newapp/productpage.dart';
 //import 'package:newapp/Splash.dart';
 
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: true,
-      home: Home(),
+      home: Product(),
     );
   }
 }
